@@ -1,0 +1,43 @@
+.menu-item {
+    padding: 12px 0 12px 50px;
+    margin: 10px 0;
+}
+
+.menu-item:hover {
+    background: #f0f0f4;
+    border-radius: 4px;
+}
+
+.menu-item-active {
+    background: #EFEFFD;
+    border-radius: 4px;
+    color: #5862ED;
+}
+
+.whatsapp-card {
+    background: #6366f1;
+    height: 144px;
+    color: #ffffff;
+
+    .p-card-body {
+        padding: 0;
+    }
+
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+.reward-card {
+    background: #11cb95;
+    height: 144px;
+    color: #ffffff;
+
+    .p-card-body {
+        padding: 0;
+    }
+
+    .p-card-content {
+        padding: 0;
+    }
+}

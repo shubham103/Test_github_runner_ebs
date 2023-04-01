@@ -1,0 +1,20 @@
+.profile-card {
+    border: 2px solid #ccc;
+
+    .p-card-content {
+        padding: 0 !important;
+    }
+}
+
+.email-card {
+    border: 2px solid #ccc;
+
+    .p-card-body {
+        padding-top: 59px;
+        padding-bottom: 59px;
+    }
+
+    .p-card-content {
+        padding: 0 !important;
+    }
+}

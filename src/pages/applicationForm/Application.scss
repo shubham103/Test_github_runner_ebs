@@ -1,0 +1,129 @@
+.top-grid {
+    background: #E9F7EE;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 32px;
+    color: #4165B9;
+}
+
+.b-stepper {
+    display: flex;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.b-stepper__item {
+    display: flex;
+    gap: var(--spacing);
+    align-items: center;
+
+    &:not(:last-child) {
+        flex: 1;
+
+        &:after {
+            content: "";
+            position: relative;
+            z-index: -1;
+            height: 2px;
+            border: 1px dotted #7DB1FA;
+            flex: 1;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+
+        }
+    }
+}
+
+.b-stepper__title {
+    font-weight: bold;
+    font-size: clamp(1rem, 4vw, 1.25rem);
+}
+
+
+/*** Non-demo CSS ***/
+
+.wrapper {
+    max-width: 1000px;
+    margin: 2rem auto 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.stepper-grid {
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.form-layout {
+    width: 100%;
+    padding: 30px 150px 10px 150px;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.form-payment-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    .p-card-content {
+        padding: 0;
+    }
+
+    .title {
+        color: #5862ED;
+        font-size: 12px;
+        font-family: "Regular";
+        background: #80808029;
+        margin: 0;
+        padding: 5px 8px;
+        border-radius: 3px;
+    }
+
+    .plan-amount {
+        font-size: 32px;
+        font-family: "SemiBold";
+        color: #5862ED;
+        margin: 0;
+    }
+
+    .no-of-emi {
+        font-size: 10px;
+        font-family: "Light";
+        margin: 0;
+    }
+}
+
+
+::placeholder {
+    color: red;
+    font-family: "Light";
+    opacity: 1;
+    border: none;
+}
+
+.agreement-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.agreement-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 33.3%;
+}
+
+.agreement-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 33.3%;
+}

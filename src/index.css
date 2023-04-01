@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primereact/resources/primereact.min.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+@font-face {
+  font-family: "Regular";
+  src:
+    url("./assets/fonts/Lexend-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("A"),
+    url("./assets/fonts/Lexend-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Light";
+  src:
+    url("./assets/fonts/Lexend-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SemiBold";
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Lexend-SemiBold.ttf") format("truetype");
+}
+
+html {
+  font-size: 1rem;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "Medium";
+}
+
+/* label {
+  font-family: "Medium";
+  font-size: 22px;
+} */
+
+button {
+  color: #4165B9;
+}
+
+.p-button {
+  background: #4165B9;
+  border: 1px solid #4165B9;
+}
+
+.p-button:enabled:hover,
+.p-button:not(button):not(a):not(.p-disabled):hover {
+  background: #4165B9;
+  color: #ffffff;
+  border-color: #4165B9;
+}
+
+.p-button.p-button-outlined {
+  color: #4165B9;
+}
+
+.p-button:focus {
+  box-shadow: none;
+}
+
+.p-button.p-button-outlined:enabled:hover,
+.p-button.p-button-outlined:not(button):not(a):not(.p-disabled):hover {
+  background: rgba(99, 102, 241, 0.04);
+  color: #314141;
+}
+
+.p-toolbar {
+  background: #ffffff;
+  border: none;
+}
+
+.p-component {
+  font-family: "Regular" !important;
+}
+
+.font-r {
+  font-family: "Regular";
+}
+
+.font-l {
+  font-family: "Light";
+}
+
+.font-m {
+  font-family: "Medium";
+}
+
+.font-semi {
+  font-family: "SemiBold";
+}
+
+.light-text {
+  color: #8E8E8E;
+}
+
+.text-regular {
+  color: #494949;
+}
+
+.text-primary {
+  color: #4165B9;
+}

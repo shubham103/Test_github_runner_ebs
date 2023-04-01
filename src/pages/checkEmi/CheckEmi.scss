@@ -1,0 +1,49 @@
+.total-card,
+.application-track-card {
+    background: #E5EFFE;
+
+    .p-card-content {
+        padding: 0 !important;
+    }
+}
+
+.paid-card,
+.register-card {
+    background: #E9F7EE;
+
+    .p-card-content {
+        padding: 0 !important;
+    }
+}
+
+.pending-card {
+    background: #EFEFFD;
+
+    .p-card-content {
+        padding: 0 !important;
+    }
+}
+
+.emi-paid-card {
+    background: #FBF7EF;
+
+    .p-card-content {
+        padding: 0 !important;
+    }
+}
+
+.p-card {
+    box-shadow: none !important;
+}
+
+.total-title {
+    background: #7DB1FA;
+}
+
+.paid-title {
+    background: #92D9AA;
+}
+
+.pending-title {
+    background: #A3A8F5;
+}

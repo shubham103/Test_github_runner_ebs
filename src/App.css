@@ -1,0 +1,143 @@
+.app {
+  position: relative;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-fluid {
+  position: relative;
+  padding: 0 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .side-menu {
+    display: none;
+  }
+
+  .routing-container {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .form-layout {
+    padding: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+.container {
+  /* padding: 0 1.25rem; */
+  display: flex;
+  height: calc(100vh - 92px);
+}
+
+.side-menu {
+  width: 310px;
+  border-right: 1px solid #ccc;
+  position: relative;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: #ffffff;
+  padding: 0 10px;
+}
+
+.menu-decor {
+  position: absolute;
+  left: 0;
+  top: 245px;
+  width: 70px;
+}
+
+.routing-container {
+  width: calc(100% - 318px);
+  margin-left: 318px;
+  padding: 10px;
+}
+
+.routing-container-full {
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 40px;
+}
+
+.p-dropdown .p-dropdown-label.p-placeholder {
+  color: #A8A8A8;
+  font-family: "Light";
+}
+
+.p-dialog-title {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+a {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+  color: #6C6C6C;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.p-datatable-wrapper {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+  border: none;
+  color: #6C6C6C;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.field>label {
+  font-weight: 600;
+}
+
+.p-progress-spinner-svg {
+  z-index: 1000;
+}

@@ -1,0 +1,77 @@
+.loan-card {
+    background: #E9F7EE;
+    border-radius: 16px;
+    box-shadow: none;
+
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+.loan-label {
+    font-family: "Light";
+    font-size: 17px;
+}
+
+.currency {
+    font-family: "Medium";
+    font-size: 28px;
+}
+
+// .whatsapp-card {
+//     background: #32A68C;
+//     border-radius: 16px;
+//     box-shadow: none;
+
+//     .p-card-content {
+//         padding: 0;
+//     }
+// }
+
+.app-status-card {
+    background: #FBF7EF;
+    border-radius: 16px;
+    box-shadow: none;
+
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+.progress-card {
+    background: #F8F8F8;
+    border-radius: 8px;
+    box-shadow: none;
+
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+.payment-card {
+    background: #E5EFFE;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 315px;
+
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+.check-emi-card {
+    background: #FBF7EF;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 315px;
+
+    .p-card-content {
+        padding: 0;
+    }
+}
+
+
+.amount-due {
+    font-size: 50px;
+    font-family: 'SemiBold';
+}

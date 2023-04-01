@@ -1,0 +1,78 @@
+.password-width {
+    .p-inputtext {
+        width: 100%;
+    }
+}
+
+.login-title {
+    color: #4165B9;
+}
+
+.login-form,
+.otp-form {
+    input {
+        background: #F6F6F6;
+    }
+}
+
+.otp-form {
+    input {
+        background: #F6F6F6;
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 6px;
+        border: none;
+    }
+}
+
+.check-label {
+    color: #949494
+}
+
+.sub-title {
+    color: #494949;
+}
+
+.input-label {
+    color: #4165B9;
+}
+
+::placeholder,
+.addon {
+    color: #949494;
+    font-family: "Light";
+    opacity: 1;
+    border: none;
+}
+
+.addon {
+    background: #F6F6F6;
+}
+
+.p-inputtext:enabled:focus {
+    box-shadow: none;
+}
+
+.login-button {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.login-input {
+    height: 64px;
+    border: none;
+}
+
+.p-invalid {
+    color: #e24c4c;
+}
+
+.hide-logo {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .hide-logo {
+        display: none !important;
+    }
+}

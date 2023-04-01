@@ -1,0 +1,39 @@
+.grid-bg {
+    background: #f8f8f8eb;
+}
+
+.current-emi-card-bg {
+    background: #002D2D;
+}
+
+.past-emi-card-bg {
+    background: #E9F7EE;
+}
+
+.invoice-details-card-bg {
+    background: #FBFBFB;
+}
+
+.emi-card {
+    .p-card-content {
+        padding: 0;
+    }
+
+    box-shadow: none;
+}
+
+.due-date {
+    font-size: 12px;
+    padding: 2px;
+    color: #11183F;
+}
+
+.active-payment-method {
+    background: #E5EFFE;
+    border-radius: 4px;
+}
+
+.note-value {
+    color: #909090;
+    font-size: 16px;
+}
